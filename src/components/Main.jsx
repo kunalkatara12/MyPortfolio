@@ -1,9 +1,13 @@
 import React from "react";
-
+import { Home, About, Projects, Contact } from "./";
+import "./style.scss";
 const Main = () => {
   return (
     <>
-      <h1>Main</h1>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
     </>
   );
 };
