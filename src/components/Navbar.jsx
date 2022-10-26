@@ -3,7 +3,10 @@ import "./style.css";
 const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav className="navbar">
+        <div>
+            Kunal
+        </div>
         <ul className="app__navbar-links">
           {["Home", "About", "Projects",  "Contact"].map((item) => (
             <li className="app__flex p-text" key={`link-${item}`}>
