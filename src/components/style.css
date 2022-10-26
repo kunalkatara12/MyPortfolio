@@ -5,15 +5,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1e2761;
+    background-color: #030b3c;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
 nav div{
     font-size: 5vh;
-    color: rgb(230, 230, 230);
     background-image: linear-gradient(to right,
-                #54b3d6,
-                #54b3d6 50%,
-                #000 50%);
+                #0da999,
+                #0da999 50%,
+                rgb(255, 255, 255) 50%);
         background-size: 200% 100%;
         background-position: -100%;
         -webkit-background-clip: text;

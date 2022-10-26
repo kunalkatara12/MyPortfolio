@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Main = () => {
   return (
-    <div>Main</div>
-  )
-}
+    <>
+      <h1>Main</h1>
+    </>
+  );
+};
 
-export default Main
+export default Main;
