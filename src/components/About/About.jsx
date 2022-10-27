@@ -1,13 +1,13 @@
 import React from "react";
-import Me from "../assets/1666248103726.jpeg";
+import Me from "../../assets/1666248103726.jpeg";
 import {FaAward} from  "react-icons/fa"
 import {VscFolderLibrary} from  "react-icons/vsc"
-import "./style.scss"
+import "./About.scss"
 const About = () => {
   return (
     <>
-      <div id="about__div">
-        <section id="about">
+      <div id="about">
+        <section id="about__div">
           <header className="about__heading">
             {" "}
             <h5>Get To know</h5>
