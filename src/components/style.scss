@@ -258,9 +258,9 @@ nav ul li a:hover {
 /* Home */
 #home {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     box-sizing: border-box;
-    margin-top: 15px;
+    // margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -290,6 +290,82 @@ nav ul li a:hover {
 
 /* Home */
 
+
+/* About */
+.about__heading{
+text-align: center;
+    // display: flex;
+    // flex-direction: column;
+}
+#heading{
+    display: inline-block;
+    background:
+            linear-gradient(rgb(251, 255, 197) 0 0) 0 100%/var(--d, 0) 3px no-repeat,
+            linear-gradient(rgb(251, 255, 197) 0 0) 100% 100%/var(--d, 0) 3px no-repeat;
+        transition: 0.5s;
+}
+#heading:hover{
+    --d: 51%;
+}
+#about{
+    width: 100%;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // text-align: center;
+    // height: 100vh;
+}
+.about__container
+{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap:15%;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    
+}
+#about__me{
+    
+width: 100%;
+display: flex;
+justify-content: center;
+}
+#my__img{
+width: 320px;
+    height: 320px;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            aqua, transparent);
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 320px;
+    height:320px;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: 2s;
+}
+img:hover{
+    transform: rotate(0deg);
+}
+#about__para{
+ width: 90%;
+
+//  text-align: center;
+}
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+gap:1rem;
+}
+/* About */
 
 
 /* Main */
