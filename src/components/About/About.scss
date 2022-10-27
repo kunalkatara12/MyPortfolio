@@ -3,15 +3,17 @@
   width: 100%;
     display: flex;
     justify-content: center;
+    height:100vh;
 }
-#about__div {   width: 80%;
+#about__div {   
+    width: 80%;
     padding: 40px;
     background-color: #0da999;
     overflow: hidden;
     border: 3px solid black;
     border-radius: 2rem;
    
-
+height:60vh;
 }
 
 
@@ -71,12 +73,12 @@ img {
     height: 250px;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(0deg);
     transition: 2s;
 }
 
 img:hover {
-    transform: rotate(0deg);
+    transform: rotate(-10deg);
 }
 
 #about__para {
