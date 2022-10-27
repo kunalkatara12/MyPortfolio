@@ -5,10 +5,11 @@
     justify-content: center;
     height:100vh;
 }
-#about__div {   
+#about__div {  
+    margin-top: 35px;
     width: 80%;
     padding: 40px;
-    background-color: #0da999;
+    background-color: #20a876;
     overflow: hidden;
     border: 3px solid black;
     border-radius: 2rem;
@@ -20,8 +21,6 @@ height:60vh;
 
 .about__heading {
     text-align: center;
-    // display: flex;
-    // flex-direction: column;
     margin-bottom: 40px;
     color: black;
 }
