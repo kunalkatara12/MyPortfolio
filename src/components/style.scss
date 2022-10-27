@@ -2,6 +2,7 @@
 @import 'typed';
 /* Navbar */
 .navbar {
+    position: fixed;
     width: 100%;
     height: 10vh;
     display: flex;
@@ -58,6 +59,7 @@ nav ul li a {
         linear-gradient(rgb(251, 255, 197) 0 0) 0 100%/var(--d, 0) 3px no-repeat,
         linear-gradient(rgb(251, 255, 197) 0 0) 100% 100%/var(--d, 0) 3px no-repeat;
     transition: 0.5s;
+    text-transform: uppercase;
 }
 
 
@@ -292,30 +294,39 @@ nav ul li a:hover {
 
 
 /* About */
+#about__div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+#about {
+    width: 80%;
+    padding: 40px;
+    background-color: #0da999;
+    overflow:hidden ;
+    border: 3px solid black;
+    border-radius: 2rem;
+}
 .about__heading{
 text-align: center;
     // display: flex;
     // flex-direction: column;
+    margin-bottom: 40px;
+    color: black;
 }
 #heading{
     display: inline-block;
     background:
-            linear-gradient(rgb(251, 255, 197) 0 0) 0 100%/var(--d, 0) 3px no-repeat,
-            linear-gradient(rgb(251, 255, 197) 0 0) 100% 100%/var(--d, 0) 3px no-repeat;
+            linear-gradient(rgb(0, 0, 0) 0 0) 0 100%/var(--d, 0) 3px no-repeat,
+            linear-gradient(rgb(0, 0, 0) 0 0) 100% 100%/var(--d, 0) 3px no-repeat;
         transition: 0.5s;
+       
 }
 #heading:hover{
     --d: 51%;
 }
-#about{
-    width: 100%;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    // text-align: center;
-    // height: 100vh;
-}
+
 .about__container
 {
     display: grid;
@@ -333,8 +344,8 @@ display: flex;
 justify-content: center;
 }
 #my__img{
-width: 320px;
-    height: 320px;
+width: 250px;
+    height: 250px;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg,
@@ -345,8 +356,8 @@ width: 320px;
 }
 
 img{
-    width: 320px;
-    height:320px;
+    width: 250px;
+    height:250px;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
@@ -357,13 +368,31 @@ img:hover{
 }
 #about__para{
  width: 90%;
+ color: black;
 
-//  text-align: center;
+ text-align: center;
 }
 .about__cards{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 gap:1rem;
+}
+.about__card{
+    // width: 50px;
+    background-color: #020936;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.btn{
+    
+    text-decoration: none;
+    color: #020936;
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
 }
 /* About */
 
