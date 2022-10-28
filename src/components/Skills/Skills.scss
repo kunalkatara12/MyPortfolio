@@ -17,9 +17,21 @@
         height: 100vh;
 }
 
-#title{
+#skills__title{
     text-align: center;
     // margin-top: 35px;
-        margin-bottom: 40px;
+        // margin-bottom: 40px;
         color: black;
+        font-size: x-large;
+}
+
+#skills__subtitle{
+    text-align: center;
+        color: black;
+        font-weight: 700;
+}
+
+#skills__container
+{
+    row-gap: 0;
 }
