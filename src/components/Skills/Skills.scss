@@ -1,8 +1,79 @@
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --header-height: 3rem;
+
+    /*========== Colors ==========*/
+    /* Change favorite color */
+    --hue-color: 250;
+    /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+
+    /* HSL color mode */
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: #fff;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== Margenes Bottom ==========*/
+    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+    :root {
+        --big-font-size: 3rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+
 #skills{
     width: 100%;
     height:100vh;
     display: flex;
         justify-content: center;
+        color: #000000;
 }
 
 #skills__section{
@@ -19,8 +90,6 @@
 
 #skills__title{
     text-align: center;
-    // margin-top: 35px;
-        // margin-bottom: 40px;
         color: black;
         font-size: x-large;
 }
@@ -30,8 +99,96 @@
         color: black;
         font-weight: 700;
 }
-
-#skills__container
+.skills__container
 {
     row-gap: 0;
+    margin-top: 20px;
+}
+#skills__container-inside-container{
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-between;
+
+}
+.skills__header{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 2.5rem;
+    // flex-direction: column;
+}
+
+.skills__icon, .skills__arrow
+{
+    font-size: 2rem;
+    color: hsl(250, 90%, 23%);
+}
+.skills__icon
+{
+    margin-right: 0.75rem;
+}
+.skills__title{
+    font-size: var(--h3-font-size);
+}
+.skills__subtitle
+{
+    font-size: var(--small-font-size);
+    color: hsl(58, 6%, 76%);
+}
+.skills__arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+.skills__list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+.skill__title
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+.skill__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-right: 12px;
+}
+
+.skill__progress-bar,.skill__percentage{
+height: 5px;
+border-radius: 0.25rem;
+}
+.skill__progress-bar{
+    background-color: hsl(183, 84%, 48%);
+}
+
+.skill__percentage {
+    display: block;
+    background-color: hsl(250, 90%, 23%);
+}
+.skill__html{
+    width: 95%;
+}
+.skill__javascript{
+    width: 75%;
+}
+.skill__react{
+    width: 80%;
+}
+.skill__node{
+    width: 55%;
+}
+
+.skill__express{
+    width: 45%;
+}
+.skill__mongo{
+    width: 55%;
+}
+.skill__css
+{
+    width: 85%;
 }
