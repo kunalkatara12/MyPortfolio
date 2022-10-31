@@ -39,7 +39,7 @@ const About = () => {
                  5 ⭐
                 @Hackerrank(C++) | Learning Enthusiast |
               </p>
-              <a href="#Contact" className="btn btn-primary">
+              <a href="#contact" className="btn btn-primary">
                 Let's Talk
               </a>
             </div>

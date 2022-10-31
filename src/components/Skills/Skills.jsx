@@ -20,6 +20,22 @@ import { SiTailwindcss, SiCplusplus, SiExpress } from "react-icons/si";
 import { BiCodeCurly, BiServer } from "react-icons/bi";
 import { RiArrowDropDownLine } from "react-icons/ri";
 const Skills = () => {
+  // const skillsContent = document.getElementsByClassName(
+  //     "skills__content-progress"
+  //   ),
+  //   skillsHeader = document.querySelectorAll(".skills__header");
+  // function toggleSkills() {
+  //   let itemClass = this.parentNode.className;
+  //   for (var i = 0; i < skillsContent.length; i++) {
+  //     skillsContent[i].className = "skills__content-progress skills__open";
+  //     if (itemClass === "skills__content-progress skills__close") {
+  //       this.parentNode.className = "skills__content-progress skills__open";
+  //     }
+  //   }
+  // }
+  // skillsHeader.forEach((el) => {
+  //   el.addEventListener("click", toggleSkills);
+  // });
   return (
     <div id="skills">
       <section id="skills__section">
@@ -29,14 +45,14 @@ const Skills = () => {
           {" "}
           <div id="skills__container-inside-container">
             {/* Skills 1 */}
-            <div className="skills__content-progress">
+            <div className="skills__content-progress skills__open">
               <div className="skills__header">
                 <BiCodeCurly className="skills__icon" />
                 <div className="skills__title-before">
                   <h1 className="skills__title">Frontend Developement</h1>
                   <span className="skills__subtitle">More than 2 years</span>
                 </div>
-                <RiArrowDropDownLine className="skills__arrow" />
+                {/* <RiArrowDropDownLine className="skills__arrow" /> */}
               </div>
               <div className="skills__list grid">
                 <div className="skill__data">
@@ -80,14 +96,14 @@ const Skills = () => {
             </div>
             {/* Skills 1 */}
             {/* Skills 2 */}
-            <div className="skills__content-progress">
+            <div className="skills__content-progress skills__close">
               <div className="skills__header">
                 <BiServer className="skills__icon" />
                 <div className="skills__title-before">
                   <h1 className="skills__title">Backend Developenent</h1>
                   <span className="skills__subtitle">6 months</span>
                 </div>
-                <RiArrowDropDownLine className="skills__arrow" />
+                {/* <RiArrowDropDownLine className="skills__arrow" /> */}
               </div>
               <div className="skills__list grid">
                 <div className="skill__data">
