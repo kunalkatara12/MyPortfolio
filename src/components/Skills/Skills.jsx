@@ -37,43 +37,43 @@ const Skills = () => {
                   <span className="skills__subtitle">More than 2 years</span>
                 </div>
                 <RiArrowDropDownLine className="skills__arrow" />
-                <div className="skills__list grid">
-                  <div className="skill__data">
-                    <div className="skill__title">
-                      <h3 className="skill__name">HTML</h3>
-                      {/* skills__number ki jagah neeche wali */}
-                      <span className="skill__progress-percent">95%</span>
-                    </div>
-                    <div className="skill__progress-bar">
-                      <span className="skill__percentage skill__html"></span>
-                    </div>
+              </div>
+              <div className="skills__list grid">
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">HTML</h3>
+                    {/* skills__number ki jagah neeche wali */}
+                    <span className="skill__progress-percent">95%</span>
                   </div>
-                  <div className="skill__data">
-                    <div className="skill__title">
-                      <h3 className="skill__name">CSS</h3>
-                      <span className="skill__progress-percent">85%</span>
-                    </div>
-                    <div className="skill__progress-bar">
-                      <span className="skill__percentage skill__css"></span>
-                    </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__html"></span>
                   </div>
-                  <div className="skill__data">
-                    <div className="skill__title">
-                      <h3 className="skill__name">JavaScript</h3>
-                      <span className="skill__progress-percent">75%</span>
-                    </div>
-                    <div className="skill__progress-bar">
-                      <span className="skill__percentage skill__javascript"></span>
-                    </div>
+                </div>
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">CSS</h3>
+                    <span className="skill__progress-percent">85%</span>
                   </div>
-                  <div className="skill__data">
-                    <div className="skill__title">
-                      <h3 className="skill__name">React</h3>
-                      <span className="skill__progress-percent">80%</span>
-                    </div>
-                    <div className="skill__progress-bar">
-                      <span className="skill__percentage skill__react"></span>
-                    </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__css"></span>
+                  </div>
+                </div>
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">JavaScript</h3>
+                    <span className="skill__progress-percent">75%</span>
+                  </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__javascript"></span>
+                  </div>
+                </div>
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">React</h3>
+                    <span className="skill__progress-percent">80%</span>
+                  </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__react"></span>
                   </div>
                 </div>
               </div>
@@ -88,33 +88,33 @@ const Skills = () => {
                   <span className="skills__subtitle">6 months</span>
                 </div>
                 <RiArrowDropDownLine className="skills__arrow" />
-                <div className="skills__list grid">
-                  <div className="skill__data">
-                    <div className="skill__title">
-                      <h3 className="skill__name">Node.Js</h3>
-                      <span className="skill__progress-percent">55%</span>
-                    </div>
-                    <div className="skill__progress-bar">
-                      <span className="skill__percentage skill__node"></span>
-                    </div>
+              </div>
+              <div className="skills__list grid">
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">Node.Js</h3>
+                    <span className="skill__progress-percent">55%</span>
                   </div>
-                  <div className="skill__data">
-                    <div className="skill__title">
-                      <h3 className="skill__name">Express.Js</h3>
-                      <span className="skill__progress-percent">45%</span>
-                    </div>
-                    <div className="skill__progress-bar">
-                      <span className="skill__percentage skill__express"></span>
-                    </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__node"></span>
                   </div>
-                  <div className="skill__data">
-                    <div className="skill__title">
-                      <h3 className="skill__name">MongoDB</h3>
-                      <span className="skill__progress-percent">55%</span>
-                    </div>
-                    <div className="skill__progress-bar">
-                      <span className="skill__percentage skill__mongo"></span>
-                    </div>
+                </div>
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">Express.Js</h3>
+                    <span className="skill__progress-percent">45%</span>
+                  </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__express"></span>
+                  </div>
+                </div>
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">MongoDB</h3>
+                    <span className="skill__progress-percent">55%</span>
+                  </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__mongo"></span>
                   </div>
                 </div>
               </div>
