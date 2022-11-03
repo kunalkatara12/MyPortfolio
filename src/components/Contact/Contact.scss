@@ -39,20 +39,20 @@
   text-align: center;
 }
 .form {
-  background-color: #ffffff;
+  background-color:hsl(202, 94%, 26%);
   grid-area: form;
-  border-top-left-radius: 2rem;
-  border-bottom-left-radius: 2rem;
+   border-radius: 1rem;
 }
 .info {
-  background-color: #ffffff;
+
+  background-color:hsl(202, 94%, 26%);
   grid-area: info;
-  border-top-right-radius: 2rem;
+  border-radius: 1rem;
 }
 .map {
-  background-color: #ffffff;
+  background-color:hsl(202, 94%, 26%);
   grid-area: map;
-
+ border-radius: 1rem;
 }
 #contact__box {
     margin-top: 10px;
@@ -114,6 +114,22 @@ height: 80%;
   min-height: 95px;
   margin-bottom: 10px;
  }
- #submitBtn{
-  width: 50%;
+//  .inptBox input[type="submit"]
+#submitBtn{
+  background: #333;
+  color: #ffffff;
+  border: none;
+  font-size: 1.1rem;
+  max-width: 120px;
+  font-weight: 500;
+  cursor:pointer;
+  // background: #577eff;
+ }
+ .inptBox ::placeholder{
+  color: #5e605f;
+ }
+
+ .inptBox input,textarea{
+    border: 2px solid black;
+    border-radius: 6px ;
  }

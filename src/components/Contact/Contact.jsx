@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className="contact__box-inside info">info</div>
+          <div className="contact__box-inside info"></div>
           <div className="contact__box-inside map">map</div>
         </div>
       </div>
