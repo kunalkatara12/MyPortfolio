@@ -90,7 +90,8 @@
     text-align: center;
 }
 #skills__title{
-    
+      color: black;
+  font-size: x-large;
     display: inline-block;
       background: linear-gradient(rgb(0, 0, 0) 0 0) 0 100% / var(--d, 0) 3px
       no-repeat,
@@ -102,13 +103,12 @@
   --d: 51%;
 }
 
-#skills__title {
+// #skills__title {
 
-  color: black;
-  font-size: x-large;
-//   display: inline-block;
 
-}
+// //   display: inline-block;
+
+// }
 
 
 // heading {

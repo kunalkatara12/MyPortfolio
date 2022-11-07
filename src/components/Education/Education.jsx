@@ -1,8 +1,14 @@
 import React from 'react'
-
+import "./Education.scss"
 const Education = () => {
   return (
-    <div>Education</div>
+    <>
+    <div id="education">
+      <div className="education__section">
+        <h3 className="education__title">Education</h3>
+      </div>
+    </div>
+    </>
   )
 }
 
