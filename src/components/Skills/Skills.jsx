@@ -158,6 +158,12 @@ const Skills = () => {
           <SiCplusplus className="tech__icons" />
           <SiExpress className="tech__icons" />
         </div>
+        <div>
+          I believe that learning never stops in one's life. That's why I am
+          always learning something or the other. I can't say I'm 100% good at
+          any skill. But I can give my best to hone that skill and become better
+          than my previous version.
+        </div>
       </section>
     </div>
   );

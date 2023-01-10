@@ -8,13 +8,13 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div id="navbar__title">Kunal</div>
+        <div id="navbar__title">My Portfolio</div>
         <ul className="app__navbar-links">
           {[
             "home",
             "about",
             "projects",
-            "experience",
+            // "experience",
             "education",
             "skills",
             "contact",
@@ -46,7 +46,7 @@ const Navbar = () => {
                   "home",
                   "about",
                   "projects",
-                  "experience",
+                  // "experience",
                   "education",
                   "skills",
                   "contact",

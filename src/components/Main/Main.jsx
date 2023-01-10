@@ -14,7 +14,7 @@ const Main = () => {
       <Home/>
       <About/>
       <Projects/>
-      <Experience/>
+      {/* <Experience/> */}
       <Education/>
       <Skills/>
       <Contact/>
