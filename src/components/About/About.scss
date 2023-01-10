@@ -56,7 +56,7 @@ height:70vh;
     justify-content: center;
 }
 
-#my__img {
+#my__img-div {
     width: 250px;
     height: 250px;
     aspect-ratio: 1/1;
@@ -68,17 +68,17 @@ height:70vh;
     place-items: center;
 }
 
-img {
+#my__img {
     width: 250px;
     height: 250px;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(0deg);
+    transform: rotate(10deg);
     transition: 2s;
 }
 
-img:hover {
-    transform: rotate(-10deg);
+#my__img:hover {
+    transform: rotate(0deg);
 }
 
 #about__para {
