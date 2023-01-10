@@ -16,8 +16,8 @@ const About = () => {
 
           <div className="container about__container">
             <div id="about__me">
-              <div id="my__img">
-                <img src={Me} alt="my_image" />
+              <div id="my__img-div">
+                <img id="my__img" src={Me} alt="my_image" />
               </div>
             </div>
 
@@ -35,8 +35,7 @@ const About = () => {
                 </article>
               </div>
               <p id="about__para">
-                | GSSoC'22 | Frontend Web Developer | 2⭐(1535) @CodeChef |
-                 5 ⭐
+                | GSSoC'22 | Frontend Web Developer | 2⭐(1535) @CodeChef | 5 ⭐
                 @Hackerrank(C++) | Learning Enthusiast |
               </p>
               <a href="#contact" className="btn btn-primary">
