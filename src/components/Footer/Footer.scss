@@ -10,8 +10,10 @@
 }
 
 .icon_of_my-handles{
+  margin-top: 10px;
     display: grid;
   grid-template-columns: auto auto;
   column-gap: 1px;
   row-gap: 15px;
+ place-items:  center;
 }
