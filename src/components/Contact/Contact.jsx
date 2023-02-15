@@ -40,7 +40,7 @@ const Contact = () => {
                 <div className="row100">
                   <div className="inptBox">
                     <span>Message</span>{" "}
-                    <textarea placeholder="Write your message..."></textarea>
+                    <textarea name="message" placeholder="Write your message..."></textarea>
                   </div>
                 </div>
                 <div className="row100">
@@ -74,7 +74,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="contact__box-inside map">map</div>
+          {/* <div className="contact__box-inside map">map</div> */}
         </div>
       </div>
     </div>
