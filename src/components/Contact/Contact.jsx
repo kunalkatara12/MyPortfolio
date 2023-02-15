@@ -1,9 +1,33 @@
-import React from "react";
+import React, {useRef} from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.scss";
 import { BiPhoneCall } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "service_pf9aojo",
+          "template_hu5ybbs",
+          form.current,
+          "byXU8T_6G3pNCK-WI"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+        e.target.reset();
+    };
+
   return (
     <div id="contact">
       <div id="contact__section">
@@ -15,7 +39,7 @@ const Contact = () => {
         <div id="contact__box">
           <div className="contact__box-inside form">
             <h4 id="form__heading">Send a Message</h4>
-            <form id="form" action="">
+            <form id="form" ref={form} onSubmit={sendEmail}>
               <div className="form__box">
                 <div className="row50">
                   <div className="inptBox">
@@ -40,7 +64,10 @@ const Contact = () => {
                 <div className="row100">
                   <div className="inptBox">
                     <span>Message</span>{" "}
-                    <textarea name="message" placeholder="Write your message..."></textarea>
+                    <textarea
+                      name="message"
+                      placeholder="Write your message..."
+                    ></textarea>
                   </div>
                 </div>
                 <div className="row100">
