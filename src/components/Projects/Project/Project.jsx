@@ -55,10 +55,10 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
       }}
     >
       <CardActionArea>
-        <CardMedia component="img" height="140" image="" alt="green iguana" />
+        <CardMedia component="img" height="140" image="" alt="project" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-           {props.name}
+            {props.name}
           </Typography>
           <Typography variant="body2" color="white">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -66,11 +66,22 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
             dicta tenetur sed unde voluptatum quia eveniet nihil.
           </Typography>{" "}
           <CardActions sx={{ display: "flex", justifyContent: "space-around" }}>
-            <Button size="small" color="primary">
+            <Button
+              size="small"
+              color="error"
+              target="_blank"
+              href={props.Plink}
+            >
               Project Link
+              {/* <a href={props.link}></a> */}
             </Button>
 
-            <Button size="small" color="primary">
+            <Button
+              size="small"
+              color="primary"
+              target="_blank"
+              href={props.Glink}
+            >
               Github
             </Button>
           </CardActions>
