@@ -1,6 +1,6 @@
 import React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Me from "../../assets/1586342076871.jpeg";
+import Me from "../../assets/1666248103726.jpeg";
 import Resume from "../../assets/Kunal's Resume.pdf";
 import Button from "@mui/material/Button";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
@@ -38,7 +38,7 @@ const Home = () => {
             {/* <a href={Resume}  >Download my resume</a> */}
           </div>
           <div id="home_col_2">
-            <img src={Me} alt="img" />
+            <img src={Me} alt="img" style={{height:"510px" ,width:"490px"}} />
           </div>
         </div>
       </div>
