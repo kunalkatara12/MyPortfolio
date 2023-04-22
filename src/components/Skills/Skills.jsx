@@ -16,7 +16,7 @@ import {
   DiSqllite,
   DiReact,
 } from "react-icons/di";
-import { SiTailwindcss, SiCplusplus, SiExpress } from "react-icons/si";
+import { SiTailwindcss, SiCplusplus, SiExpress, SiNextdotjs } from "react-icons/si";
 import { BiCodeCurly, BiServer } from "react-icons/bi";
 import { RiArrowDropDownLine } from "react-icons/ri";
 const Skills = () => {
@@ -92,6 +92,15 @@ const Skills = () => {
                     <span className="skill__percentage skill__react"></span>
                   </div>
                 </div>
+                <div className="skill__data">
+                  <div className="skill__title">
+                    <h3 className="skill__name">Next</h3>
+                    <span className="skill__progress-percent">40%</span>
+                  </div>
+                  <div className="skill__progress-bar">
+                    <span className="skill__percentage skill__next"></span>
+                  </div>
+                </div>
               </div>
             </div>
             {/* Skills 1 */}
@@ -157,6 +166,7 @@ const Skills = () => {
           <SiTailwindcss className="tech__icons" />
           <SiCplusplus className="tech__icons" />
           <SiExpress className="tech__icons" />
+          <SiNextdotjs className="tech__icons" />
         </div>
         <div>
           I believe that learning never stops in one's life. That's why I am
