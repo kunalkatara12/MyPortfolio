@@ -19,7 +19,7 @@ const Projects = () => {
           />
           <Project
             name="Youtube Clone"
-            Plink="https://youtube-clone-gemini.netlify.app/"
+            Plink="https://youtube-clone-gemini2.vercel.app/"
             Glink="https://github.com/kunalkatara12/youtube-clone-gemini"
           />
           <Project
