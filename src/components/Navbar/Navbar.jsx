@@ -1,6 +1,5 @@
 import React from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { Button } from "@mui/material";
 import { motion } from "framer-motion";
 import "./Navbar.scss";
 import { useState } from "react";
