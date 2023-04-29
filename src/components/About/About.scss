@@ -113,4 +113,54 @@ height:70vh;
     justify-content: center;
 }
 
+@media (max-width:840px) {
+    #about{
+        width: 100%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #about__div{
+       
+    }
+    .about__container{
+        display: flex ;
+        flex-direction: column;
+    }
+    #my__img-div {
+        width: 200px;
+        height:200px;
+            aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            aqua, transparent);
+    display: grid;
+    place-items: center;
+    }
+    #my__img {
+        width: 200px;
+        height:200px;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: 2s;
+    }
+    .about__cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about__card{
+        width: 150px;
+        height: 150px;
+       padding: 1px;
+       padding-top: 2px;
+    }
+    #about__para{
+        width: 100%;
+        text-align: center;
+        font-size: small;
+    }
+}
+
 /* About */
