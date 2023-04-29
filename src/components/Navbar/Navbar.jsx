@@ -1,10 +1,8 @@
 import React from "react";
-import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { motion } from "framer-motion";
 import "./Navbar.scss";
-import { useState } from "react";
+// import { useState } from "react";
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
+  // const [toggle, setToggle] = useState(false);
    const openInNewTab = (url) => {
      window.open(url, "_blank");
    };
@@ -41,7 +39,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="app__navbar-menu">
+        {/* <div className="app__navbar-menu">
           <HiMenuAlt4
             style={{
               backgroundColor: "black",
@@ -76,7 +74,7 @@ const Navbar = () => {
               </ul>
             </motion.div>
           )}
-        </div>
+        </div> */}
       </nav>
     </>
   );
