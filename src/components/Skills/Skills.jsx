@@ -18,7 +18,6 @@ import {
 } from "react-icons/di";
 import { SiTailwindcss, SiCplusplus, SiExpress, SiNextdotjs } from "react-icons/si";
 import { BiCodeCurly, BiServer } from "react-icons/bi";
-import { RiArrowDropDownLine } from "react-icons/ri";
 const Skills = () => {
   // const skillsContent = document.getElementsByClassName(
   //     "skills__content-progress"
