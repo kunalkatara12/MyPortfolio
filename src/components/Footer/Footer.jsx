@@ -7,7 +7,7 @@ import {
   BsTwitter,
   BsMedium,
 } from "react-icons/bs";
-import { SiCodechef, SiHackerrank } from "react-icons/si";
+import { SiCodechef, SiHackerrank, SiLeetcode } from "react-icons/si";
 const Footer = () => {
   const style = { color: "white", fontSize: "1.2em" };
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
         <h4>Let's connect</h4>
         <div className="icon_of_my-handles">
           <a target={"blank"} href="https://www.instagram.com/kunalkatara2877/">
-            <BsInstagram style={style}  />
+            <BsInstagram style={style} />
           </a>
           <a target={"blank"} href="https://github.com/kunalkatara12">
             <BsGithub style={style} />
@@ -43,6 +43,9 @@ const Footer = () => {
           </a>
           <a target={"blank"} href="https://www.hackerrank.com/kunalkatara888">
             <SiHackerrank style={style} />
+          </a>
+          <a target={"blank"} href="https://leetcode.com/kunalkatara888/">
+            <SiLeetcode style={style}/>
           </a>
         </div>
       </div>
