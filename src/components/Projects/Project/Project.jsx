@@ -33,7 +33,7 @@ const ExpandMore = styled((props) => {
    return (
      <Card
        sx={{
-         height: 250,
+         height: 220,
          width: 350,
          maxWidth: 400,
          maxHeight: 600,
@@ -51,11 +51,11 @@ const ExpandMore = styled((props) => {
 
        <CardMedia
          component="img"
-         height="100"
+         height="90"
          image={props.imgLink}
          alt="project"
        />
-       <CardActions style={{ width: "60%" ,display:"flex", justifyContent:"center",alignItems:"center" }}>
+       <CardActions style={{ width: "60%" }}>
          {" "}
          <ExpandMore
            expand={expanded}
