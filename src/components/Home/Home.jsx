@@ -18,7 +18,7 @@ const Home = () => {
       <div id="home">
         <div id="container">
           <div id="home_col_1">
-            {/* <h2 id="description"></h2> */}
+            <h2 id="description"></h2>
             {""}
             <ThemeProvider theme={theme}>
               {" "}
