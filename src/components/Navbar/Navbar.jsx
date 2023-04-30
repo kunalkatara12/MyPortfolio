@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
+import DarkLightToggler from "./DarkLightToggler/DarkLightToggler";
 // import { useState } from "react";
 const Navbar = () => {
   // const [toggle, setToggle] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
       <nav className="navbar">
         {/* <div id="navbar__title">My Portfolio</div> */}
         <div
-         id="navbar__title"
+          id="navbar__title"
           onClick={() => {
             openInNewTab("/");
           }}
@@ -23,22 +24,25 @@ const Navbar = () => {
             My Portfolio
           </span>
         </div>
-        <ul className="app__navbar-links">
-          {[
-            "home",
-            "about",
-            "projects",
-            // "experience",
-            "education",
-            "skills",
-            "contact",
-          ].map((item) => (
-            <li className="app__flex p-text" key={`link-${item}`}>
-              <div />
-              <a href={`#${item}`}>{item}</a>
-            </li>
-          ))}
-        </ul>
+        <div className="navbar__right-part">
+          <ul className="app__navbar-links">
+            {[
+              "home",
+              "about",
+              "projects",
+              // "experience",
+              "education",
+              "skills",
+              "contact",
+            ].map((item) => (
+              <li className="app__flex p-text" key={`link-${item}`}>
+                <div />
+                <a href={`#${item}`}>{item}</a>
+              </li>
+            ))}
+          </ul>
+          <DarkLightToggler />
+        </div>
         {/* <div className="app__navbar-menu">
           <HiMenuAlt4
             style={{
