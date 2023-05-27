@@ -70,9 +70,7 @@ const ExpandMore = styled((props) => {
        <Collapse in={expanded} timeout="auto" unmountOnExit>
          <CardContent>
            <Typography variant="body2" color="white">
-             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-             cumque maiores odio quaerat minus temporibus debitis optio ipsum in
-             dicta tenetur sed unde voluptatum quia eveniet nihil.
+         {props.description}
            </Typography>{" "}
            {/* <CardActions
              sx={{ display: "flex", justifyContent: "space-around" }}
