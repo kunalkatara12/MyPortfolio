@@ -1,7 +1,8 @@
 import React from "react";
 import "./Navbar.scss";
-import DarkLightToggler from "./DarkLightToggler/DarkLightToggler";
-// import { useState } from "react";
+// import DarkLightToggler from "./DarkLightToggler/DarkLightToggler";
+import {HiMenuAlt4,HiX} from "react-icons"
+import { useState } from "react";
 const Navbar = () => {
   // const [toggle, setToggle] = useState(false);
    const openInNewTab = (url) => {
@@ -41,10 +42,12 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <DarkLightToggler />
+          {/* <DarkLightToggler /> */}
         </div>
-        {/* <div className="app__navbar-menu">
-          <HiMenuAlt4
+        
+        {/* <div className="app__navbar-menu"> */}
+          
+          {/* <HiMenuAlt4
             style={{
               backgroundColor: "black",
               padding: "5px",
@@ -77,8 +80,8 @@ const Navbar = () => {
                 ))}
               </ul>
             </motion.div>
-          )}
-        </div> */}
+          )} */}
+        {/* </div> */}
       </nav>
     </>
   );
