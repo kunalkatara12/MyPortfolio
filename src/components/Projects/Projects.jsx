@@ -6,6 +6,7 @@ import youtubeClone from "../../assets/Screenshot (209).png"
 import zipExt from "../../assets/Screenshot (210).png"
 import randPass from "../../assets/RandomPassGen.png"
 import charCount from "../../assets/CharCouter.png"
+import chatApp from "../../assets/screenshot-chat-app-eight-sigma.vercel.app-2023.06.26-23_09_13.png"
 const Projects = () => {
 
   return (
@@ -42,7 +43,8 @@ understand different sorting techniques."
           />
           <Project
             name="Chat App"
-            Plink="https://chat-app-gemini.vercel.app/"
+            imgLink={chatApp}
+            Plink="https://chat-app-eight-sigma.vercel.app/"
             Glink="https://github.com/kunalkatara12/ChatApp"
           />
           <Project
