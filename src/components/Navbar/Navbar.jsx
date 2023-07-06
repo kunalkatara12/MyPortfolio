@@ -32,7 +32,7 @@ const Navbar = () => {
               "about",
               "projects",
               // "experience",
-              "education",
+              // "education",
               "skills",
               "contact",
             ].map((item) => (
