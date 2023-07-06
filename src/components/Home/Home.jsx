@@ -4,6 +4,7 @@ import Me from "../../assets/1666248103726.jpeg";
 import Resume from "../../assets/Kunal Katara's Resume.pdf";
 import Button from "@mui/material/Button";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
+import {motion} from "framer-motion"
 import "./Home.scss";
 const Home = () => {
   const theme = createTheme({
@@ -38,7 +39,20 @@ const Home = () => {
             {/* <a href={Resume}  >Download my resume</a> */}
           </div>
           <div id="home_col_2">
-            <img src={Me} alt="img" style={{height:"510px" ,width:"490px"}} />
+            <motion.img
+
+              initial={{ scale: 0 }}
+              animate={{ rotate: 360, scale: 1 }}
+              transition={{
+                type: "spring",
+                stiffness: 270,
+                damping: 20,
+              }}
+              whileHover={{ scale: 0.8 }}
+              src={Me}
+              alt="img"
+              style={{ height: "510px", width: "490px" }}
+            />
           </div>
         </div>
       </div>
