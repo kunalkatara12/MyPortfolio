@@ -44,7 +44,7 @@ understand different sorting techniques."
           <Project
             name="Chat App"
             imgLink={chatApp}
-            Plink="https://chat-app-eight-sigma.vercel.app/"
+            Plink="https://chat-app-8-sigma.vercel.app/"
             Glink="https://github.com/kunalkatara12/ChatApp"
           />
           <Project
