@@ -48,6 +48,10 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
+  --spacing-unit: 20rem;
+  // --margin: calc(0.2 * var(--spacing-unit))
+  // --padding: calc(0.2 * var(--spacing-unit))
+
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
@@ -68,7 +72,8 @@
 }
 
 #skills {
-  margin-top: 20rem;
+  
+  margin-top: 30rem;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -243,4 +248,16 @@
 }
 .tech__icons {
   margin: 3px;
+}
+
+@media (max-width: 840px){
+  #skills{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: calc(5 * var(--spacing-unit));
+    margin-bottom: auto;
+  }
+  #skills__section{height: fit-content;}
+  
 }

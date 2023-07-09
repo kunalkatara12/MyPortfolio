@@ -109,15 +109,18 @@
 
 @media (max-width: 840px) {
   #about {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  // #about__div{
-  //     width: 100%;
-  //     height: 100%;
-  // }
+  #about__me{
+    
+    display: none;
+  }
+  #about__div{
+      height: fit-content;
+  }
   .about__container {
     display: flex;
     flex-direction: column;

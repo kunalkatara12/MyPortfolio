@@ -163,3 +163,30 @@ gap: 10px;
  .contact__icons{
   margin-top: 4px;
  }
+ @media (max-width: 840px) {
+  #contact {
+    margin-top: 80rem;
+  }
+  #contact__section{
+    height: fit-content;
+    margin-bottom: 50rem;
+  }
+  .info__box{
+    margin: 0;
+    overflow-x: scroll;
+  }
+  #contact__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .form__box{
+    display: flex;
+    flex-direction: column;
+  }
+  .form__box .row50{
+    flex-direction: column;
+  }
+  .inptBox{
+    width: 100%;
+  }
+ }
