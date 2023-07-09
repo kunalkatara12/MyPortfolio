@@ -33,8 +33,8 @@ const ExpandMore = styled((props) => {
    return (
      <Card
        sx={{
-         height: 220,
-         width: 350,
+         height: "fit-content",
+        //  width: 350,
          maxWidth: 400,
          maxHeight: 600,
          borderRadius: "10px",
@@ -42,7 +42,8 @@ const ExpandMore = styled((props) => {
          color: "white",
          display: "flex",
          flexDirection: "column",
-         overflow: "scroll",
+        //  overflow: "scroll",
+          
        }}
        className="card"
      >
