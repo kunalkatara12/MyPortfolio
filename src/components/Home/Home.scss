@@ -26,6 +26,7 @@
 #home_col_2 {
     width: 50%;
     text-align: center;
+  
 }
 
 #home_col_1 #description {
@@ -33,4 +34,21 @@
     font-size: 40px;
     @include typed("Hi,I'm Kunal Katara", "I'm a Web Developer", 0.8, (caret-width: 2px));
 }
+.home-image{
+    height: 50% ;
+    width: 50%;
+    clip-path: circle(45%);
+}
 
+
+@media (max-width: 840px) {
+    #container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .home-image{
+        height: 100% ;
+        width: 100%;
+        clip-path: 50%;
+    }
+}

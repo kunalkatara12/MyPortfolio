@@ -40,7 +40,7 @@ const Home = () => {
           </div>
           <div id="home_col_2">
             <motion.img
-
+             className="home-image"
               initial={{ scale: 0 }}
               animate={{ rotate: 360, scale: 1 }}
               transition={{
@@ -51,7 +51,6 @@ const Home = () => {
               whileHover={{ scale: 0.8 }}
               src={Me}
               alt="img"
-              style={{ height: "510px", width: "490px" }}
             />
           </div>
         </div>
