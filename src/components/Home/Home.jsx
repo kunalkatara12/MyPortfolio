@@ -1,7 +1,7 @@
 import React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Me from "../../assets/1666248103726.jpeg";
-import Resume from "../../assets/Kunal's Resume Software Engineer Intern.pdf";
+import Resume from "../../assets/Kunal's Resume-ASE.pdf";
 import Button from "@mui/material/Button";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
 import {motion} from "framer-motion"
